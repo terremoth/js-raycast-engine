@@ -1,0 +1,30 @@
+{
+  "name": "raycast-engine",
+  "version": "1.0.0",
+  "description": "Raycasting Game Engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "build": ".\\node_modules\\.bin\\esbuild index.js --bundle --outfile=out.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ".git/"
+  },
+  "keywords": [
+    "raycasting",
+    "raycast",
+    "game-engine",
+    "engine",
+    "game"
+  ],
+  "author": "Lucas M. Dutra",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "esbuild": "^0.11.20"
+  },
+  "devDependencies": {
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
